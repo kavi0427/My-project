@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Kumanayaka Food Center</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="tabs">
+        <button id="loginTab" class="active" onclick="showLogin()">Login</button>
+        <button id="registerTab" onclick="showRegister()">Register</button>
+      </div>
+
+      <div id="loginForm">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="loginError" class="error-msg"></p>
+      </div>
+
+      <div id="registerForm" style="display: none;">
+        <h2>Create Account</h2>
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <input type="text" id="registerUsername" placeholder="Username">
+        <input type="email" id="registerEmail" placeholder="Email">
+        <input type="password" id="registerPassword" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <p id="registerError" class="error-msg"></p>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <h1>Kumanayaka Food Center</h1>
+      <p>Join our culinary journey. Create an account to reserve tables, view history and more.</p>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

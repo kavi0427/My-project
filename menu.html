@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Kumanayaka Food Center</title>
+    <meta name="description" content="Explore our exquisite menu featuring fresh Italian cuisine, seasonal specialties, and carefully curated wine selection.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Kumanayaka Food Center</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Our Menu</h1>
+            <p class="page-subtitle">Discover our carefully crafted dishes made with the finest ingredients</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="Rice">Rice Items</button>
+                <button class="filter-btn" data-category="appetizers">Kottu Items</button>
+                <button class="filter-btn" data-category="pasta">Chopsey Items</button>
+                <button class="filter-btn" data-category="mains">Noddles Items</button>
+                <button class="filter-btn" data-category="desserts">Desserts Items</button>
+                <button class="filter-btn" data-category="beverages">Beverages Items</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- Appetizers -->
+            <div class="menu-category" data-category="Rice">
+                <h2 class="category-title">Rice </h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Chicken Rice</h3>
+                            <span class="price">Full - Rs.900    Normal - Rs.700</span>
+                        </div>
+                        <p class="description">Ingredients: Basmathi Rice, roasted chicken, and eggs </p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Mixed Rice</h3>
+                            <span class="price">Full - 1200    Normal - Rs.900</span>
+                        </div>
+                        <p class="description">Ingredients: Basmathi Rice,roasted chicken,cuttle fish,prawns,sausages,eggs</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Nasiguren Rice</h3>
+                            <span class="price">Rs.1000</span>
+                        </div>
+                        <p class="description">Thinly sliced raw tuna and salmon with citrus vinaigrette and capers</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Seafood Rice</h3>
+                            <span class="price">Full - 1100   Normal - 800</span>
+                        </div>
+                        <p class="description">Ingredients: Basmathi Rice,cuttle fish,lobsters,prawns,sausages,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Pasta -->
+            <div class="menu-category" data-category="pasta">
+                <h2 class="category-title">Chopsey </h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Chicken Chopsey</h3>
+                            <span class="price">Rs.1250</span>
+                        </div>
+                        <p class="description"></p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Mixed Chopsey</h3>
+                            <span class="price">Rs.1350</span>
+                        </div>
+                        <p class="description">House-made ravioli filled with lobster and ricotta in saffron cream sauce</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Vegetable Chopsey</h3>
+                            <span class="price">Rs.800</span>
+                        </div>
+                        <p class="description">Traditional Roman pasta with guanciale, eggs, Pecorino Romano, and black pepper</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Seafood Chopsey</h3>
+                            <span class="price">Rs.1400</span>
+                        </div>
+                        <p class="description">Wide ribbon pasta with slow-cooked meat sauce and fresh herbs</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category" data-category="mains">
+                <h2 class="category-title">Noodles </h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Mixed Noodles</h3>
+                            <span class="price">Full - Rs.1200   Normal - Rs.900</span>
+                        </div>
+                        <p class="description">Ingredients - chicken,fish,cuttle fish,lobsters,prawns,sausages,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Chicken Noodles</h3>
+                            <span class="price">Full - Rs.1000   Normal - Rs.800</span>
+                        </div>
+                        <p class="description">Ingredients - rosted chicken,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Seafood Noodles</h3>
+                            <span class="price">Full - Rs.1250   Normal - Rs.950</span>
+                        </div>
+                        <p class="description">Ingredients - chicken,fish,cuttle fish,lobsters,prawns,sausages,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Sprageti</h3>
+                            <span class="price">Rs.1000</span>
+                        </div>
+                        <p class="description">Breaded chicken breast with marinara, mozzarella, and fresh basil</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+             <!-- Main Courses -->
+            <div class="menu-category" data-category="Rice items">
+                <h2 class="category-title">Rice</h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Mixed Noodles</h3>
+                            <span class="price">Full - Rs.1200   Normal - Rs.900</span>
+                        </div>
+                        <p class="description">Ingredients - chicken,fish,cuttle fish,lobsters,prawns,sausages,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Chicken Noodles</h3>
+                            <span class="price">Full - Rs.1000   Normal - Rs.800</span>
+                        </div>
+                        <p class="description">Ingredients - rosted chicken,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Seafood Noodles</h3>
+                            <span class="price">Full - Rs.1250   Normal - Rs.950</span>
+                        </div>
+                        <p class="description">Ingredients - chicken,fish,cuttle fish,lobsters,prawns,sausages,eggss</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Sprageti</h3>
+                            <span class="price">Rs.1000</span>
+                        </div>
+                        <p class="description">Breaded chicken breast with marinara, mozzarella, and fresh basil</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h2 class="category-title">Desserts</h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Ice cream</h3>
+                            <span class="price">Rs.150</span>
+                        </div>
+                        <p class="description">Vanilla,chocolate,strawbery,fruit & nut</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Kiri pani</h3>
+                            <span class="price">Rs.200</span>
+                        </div>
+                        <p class="description">with Kithul Pani</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Chocolate Lava Cake</h3>
+                            <span class="price">Rs.300</span>
+                        </div>
+                        <p class="description">Warm chocolate cake with molten center, served with vanilla gelato</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Caramel pudding</h3>
+                            <span class="price">Rs.150</span>
+                        </div>
+                        <p class="description">Traditional Sicilian pastry shells filled with sweet ricotta and chocolate chips</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Beverages -->
+            <div class="menu-category" data-category="beverages">
+                <h2 class="category-title">Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Milkshakes</h3>
+                            <span class="price">Rs.250</span>
+                        </div>
+                        <p class="description">vanilla,chocolate,strawbery</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Soft Drinks</h3>
+                            <span class="price">Rs.150 upwards</span>
+                        </div>
+                        <p class="description">coka cola,sprite,fanta,pepsi</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Espresso & Coffee</h3>
+                            <span class="price">Rs.350</span>
+                        </div>
+                        <p class="description">Authentic Italian espresso, cappuccino, and specialty coffee drinks</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="menu-item animate-fade-in">
+                        <div class="menu-item-header">
+                            <h3>Fresh Juices</h3>
+                            <span class="price">Rs.200</span>
+                        </div>
+                        <p class="description">Freshly squeezed seasonal fruit juices and sparkling water</p>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section class="reservation-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Our Menu?</h2>
+                <p>Make a reservation and let our chefs prepare an unforgettable meal for you</p>
+                <a href="contact.html" class="btn btn-primary">Make Reservation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kumanayaka Food Center</h3>
+                    <p>Come for the food, stay for the experience – because here at Kumanayaka, you're not just a customer, you're family. ❤️
+#KumanayakaFoodCenter #TasteOfTradition #HomemadeGoodness #SriLankanFlavors</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Matara Rd,Palolpitiya,Sri Lanka</p>
+                        <p><i class="fas fa-phone"></i>  (+94)77 9224653</p>
+                        <p><i class="fas fa-envelope"></i>  info@kumanayakafoodcenter.com</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <div class="hours-info">
+                                <p>Monday -  10:00 AM - 10:00 PM</p>
+                        <p>Tuesday - 10:00 AM - 10:00 PM</p>
+                        <p>Wendsday - 10:00 AM - 10:00 PM</p>
+                        <p>Thursday - 10:00 AM - 10:00 PM</p>
+                        <p>Friday - 10:00 AM - 10:00 PM</p>
+                        <p>Saturday - 10:00 AM - 10:00 PM</p>
+                         <p>Sunday - 10:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;  2025 Kumanayaka Food Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
